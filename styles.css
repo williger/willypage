@@ -14,3 +14,10 @@ p{
 img{
   style="width:304px;height:228px;"
 }
+
+ul .navbar{
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em;
+}
