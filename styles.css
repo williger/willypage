@@ -1,5 +1,5 @@
 body {
-    background-color: #5c5c8a;
+    background-color: #3d3d5c;
     
 }
 
@@ -12,7 +12,8 @@ p{
 }
 
 img{
-  style="width:100px;height:100px;"
+  height: 100px;
+  width: 100px;
 }
 
 ul .navbar{
