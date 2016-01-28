@@ -1,6 +1,6 @@
 body {
     background-color: #3d3d5c;
-    
+
 }
 
 h1 {
@@ -16,13 +16,6 @@ p{
 img{
   height: 200px;
   width: 200px;
-}
-
-ul .navbar{
-  position: absolute;
-  top: 2em;
-  left: 1em;
-  width: 9em;
 }
 
 nav{
