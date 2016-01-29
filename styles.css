@@ -64,3 +64,22 @@ nav a{
   line-height: 40px;
   text-shadow: 1px 1px 0px #283744;
 }
+
+nav li a {
+  border-right: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing: border-box;
+}
+
+nav li: last-child a{
+  border-right: 0;
+}
+
+nav a:hover, nav a:active{
+  background-color: #8c99a4;
+}
+
+nav a#pull{
+  display: none;
+}
