@@ -7,26 +7,33 @@
 </head>
 <body>
 
-<img src="Beach!Rob.jpg" alt="Rob Headshot" >
+<img src="Beach!Rob.jpg" alt="Rob Headshot"/>
 <!--Navigation Bar-->
 
 <nav class="clearfix">
     <ul class="clearfix">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">How-to</a></li>
-        <li><a href="#">Icons</a></li>
-        <li><a href="#">Design</a></li>
-        <li><a href="#">Web 2.0</a></li>
-        <li><a href="#">Tools</a></li>  
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
     </ul>
     <a href="#" id="pull">Menu</a>
 </nav>
 
-<h1>This is a heading</h1>
-<p>This is some text</p>
-<p>Here is even more text</p>
-<p>Yes, even some more text. I am a text maniac.</p>
-<p>Let's see I think I may have figured it out</p>
+.clearfix:before,
+.clearfix:after{
+ content: "";
+ display: table;
+}
+
+.clearfix:after{
+  clear:both;
+}
+
+.clearfix{
+  *zoom: 1;
+}
 
 </body>
 </html>
