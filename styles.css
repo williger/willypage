@@ -6,7 +6,7 @@ body {
 h1 {
     color: navy;
     margin-left: 20px;
-    padding: 50px, 50px, 50px, 50px;
+    padding: 50px
 }
 p{
     font-family: sans-serif;
@@ -43,7 +43,7 @@ nav li{
 
 .clearfix:before,
 .clearfix:after{
- content: "";
+ content: " ";
  display: table;
 }
 
@@ -66,7 +66,7 @@ nav a{
 }
 
 nav li a {
-  border-right: border-box;
+  border-right: 1px solid #576979;
   box-sizing: border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing: border-box;
