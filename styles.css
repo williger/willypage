@@ -111,3 +111,40 @@ nav a#pull{
   }
 
 }
+
+@media only screen and (max-width : 480px) {
+  nav {
+    border-bottom: 0;
+  }
+  nav ul{
+    display: none;
+    height: auto;
+  }
+  nav a#pull {
+    display: block;
+    background-color: #283744;
+    width: 100%;
+    position: relative;
+  }
+  nav a#pull:after{
+    content: " ";
+    background: url('nav-icon.png') no repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+}
+
+@media only screen and (max-width : 320px){
+  nav lit{
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  nav li a{
+    border-bottom: 1px solid #576979
+  }
+}
