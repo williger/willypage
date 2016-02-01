@@ -148,3 +148,14 @@ nav a#pull{
     border-bottom: 1px solid #576979
   }
 }
+
+$(function() {
+        var pull                = $('#pull');
+                menu            = $('nav ul');
+                menuHeight      = menu.height();
+
+        $(pull).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+        });
+});
